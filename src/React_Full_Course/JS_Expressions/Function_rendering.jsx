@@ -1,8 +1,9 @@
 const FunctionRendering = () => {
   const isLogged = true;
+  const greeting=isLogged ? <h1>Welcomes</h1> : <h1>Please Try again</h1>
   return (
     <div>
-      {isLogged ? <h1>Welcome</h1> : <h1>Please Try again</h1>}
+      {greeting}
     </div>
   );
 };
