@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import props_parant from "./React_Full_Course/JS_Expressions/props_parant";
 
 import Variable from "./React_Full_Course/Variable";
 import Expression from "./React_Full_Course/JS_Expressions/Expression";
@@ -12,6 +13,7 @@ function App() {   // 👈 name must match the one used in index.js
       <Expression/>
       <FunctionParameters/>
       <FunctionRendering/>
+      <props_parant/>
    
     
     </>
