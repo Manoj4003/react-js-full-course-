@@ -1,0 +1,11 @@
+.card
+{
+    background-color: rgb(241, 216, 216);
+    max-width: 200px;
+    
+
+}
+.card img{
+    max-width: 200px;
+    padding: 5px;
+}
