@@ -18,6 +18,10 @@ function App() {
 
       <FunctionParameters />
       <FunctionRendering />
+      <FunctionRendering />
+      <FunctionRendering />
+      <FunctionRendering />
+      <FunctionRendering />
       <Props_concept image={html} name="HTML" para="Html full course" />
 
     </>
