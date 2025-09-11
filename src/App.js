@@ -9,6 +9,10 @@ import Variable from "./React_Full_Course/Variable";
 import FunctionParameters from "./React_Full_Course/JS_Expressions/FunctionParameters";
 import FunctionRendering from "./React_Full_Course/JS_Expressions/Function_rendering";
 import Props_concept from "./React_Full_Course/JS_Expressions/Props_concept";
+import Greeting from "./React_Full_Course/Conditional_Rendering/Conditional_rendering";
+import Usestate from "./React_Full_Course/Usestate/usestate";
+import Usestates from "./React_Full_Course/Usestate/usestate";
+
 
 function App() {
   // 👈 name must match the one used in index.js
@@ -18,12 +22,11 @@ function App() {
 
       <FunctionParameters />
       <FunctionRendering />
-      <FunctionRendering />
-      <FunctionRendering />
-      <FunctionRendering />
-      <FunctionRendering />
-      <Props_concept image={html} name="HTML" para="Html full course" />
-
+      <Greeting/>
+      <Usestate/>
+      <Usestates/>
+      {/* <Props_concept image={html} name="HTML" para="Html full course" /> */}
+      
     </>
   );
 }
