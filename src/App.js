@@ -18,14 +18,14 @@ function App() {
   // 👈 name must match the one used in index.js
   return (
     <>
-      <Variable />
+      {/* <Variable /> */}
 
-      <FunctionParameters />
+      {/* <FunctionParameters />
       <FunctionRendering />
       <Greeting/>
       <Usestate/>
-      <Usestates/>
-      {/* <Props_concept image={html} name="HTML" para="Html full course" /> */}
+      <Usestates/> */}
+      <Props_concept image={html} name="HTML" para="Html full course" />
       
     </>
   );
